@@ -5,6 +5,8 @@ export const triggerLoginEvent = () => {
     window.dispatchEvent(loginEvent);
 };
 
+
+
 export const triggerLogoutEvent = () => {
     window.dispatchEvent(logoutEvent);
 };

@@ -1,3 +1,4 @@
+"use client";
 import { getOrderUser } from "@/app/requests/orders";
 import React, { useEffect, useState } from "react";
 import { IOrder, userLogin, IProduct } from "@/types";
